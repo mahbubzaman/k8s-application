@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'ghostinthewiresk8sapplication.myakscluster-default'
+    environment: 'ghostinthewiresk8sapplication.mzakscluster-default'
     strategy:
       runOnce:
         deploy:
